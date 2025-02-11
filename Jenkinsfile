@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout code from GitHub
-                git 'https://github.com/your-username/java-timestamp-ci.git'
+                git 'https://github.com/vishalsandhan/Jenkins-daily-task-5'
             }
         }
         stage('Build') {
