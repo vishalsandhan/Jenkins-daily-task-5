@@ -11,13 +11,13 @@ pipeline {
         stage('Build') {
             steps {
                 // Compile the Java program
-                sh 'javac TimestampPrinter.java'
+                sh 'javac Timestampprinter.java'
             }
         }
         stage('Run') {
             steps {
                 // Execute the Java program
-                sh 'java TimestampPrinter'
+                sh 'java Timestampprinter'
             }
         }
     }
