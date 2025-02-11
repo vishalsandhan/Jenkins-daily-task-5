@@ -4,10 +4,10 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                // Checkout code from GitHub
-                git 'https://github.com/vishalsandhan/Jenkins-daily-task-5'
+                git branch: 'main', url: 'https://github.com/vishalsandhan/Jenkins-daily-task-5.git'
             }
         }
+
         stage('Build') {
             steps {
                 // Compile the Java program
